@@ -67,4 +67,4 @@ SECTIONS
         *(.comment)
         *(.note .note.*)
     }
-}```
+}
