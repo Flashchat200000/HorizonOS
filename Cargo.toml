@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: Unlicense
+#
+# Cargo manifest for the HorizonOS kernel.
+
+[package]
+name = "horizonos"
+version = "0.0.1"
+edition = "2021"
+authors = ["Flashchat200000"]
+
+# We are building a binary executable, not a library.
+[[bin]]
+name = "horizonos"
+path = "src/kernel/main.rs"
+
+[profile.dev]
+# For development builds, disable panic unwinding.
+# Our kernel uses the 'abort' strategy, which is simpler and smaller.
+panic = "abort"
+
+[profile.release]
+# For release builds, do the same.
+panic = "abort"
