@@ -9,7 +9,7 @@ edition = "2021"
 authors = ["Flashchat200000"]
 
 # We are building a binary executable, not a library.
-[[bin]]
+[lib]
 name = "horizonos"
 path = "src/kernel/main.rs"
 crate-type = ["staticlib"]
