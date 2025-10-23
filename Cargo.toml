@@ -12,6 +12,7 @@ authors = ["Flashchat200000"]
 [[bin]]
 name = "horizonos"
 path = "src/kernel/main.rs"
+crate-type = ["staticlib"]
 
 [profile.dev]
 # For development builds, disable panic unwinding.
