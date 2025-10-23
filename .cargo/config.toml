@@ -1,16 +1,8 @@
-# SPDX-License-Identifier: Unlicense
-#
-# Cargo configuration for the HorizonOS kernel project.
-# This file tells Cargo how to build our code by default.
-
 [build]
-# Set the default target for this project.
-# The name must match the JSON filename in this directory (without the .json extension).
-target = "aarch64-horizonos.json"
+target = "aarch64-unknown-none"
+
+[target.aarch64-unknown-none]
+rustflags = ["-C", "link-arg=-Tkernel.ld"]
 
 [unstable]
-# Enable the `build-std` feature. This is required for `#![no_std]` projects
-# that still need access to core parts of the standard library, like `core`,
-# `alloc`, and `compiler_builtins`. Cargo will compile these libraries from
-# source specifically for our custom target.
 build-std = ["core", "compiler_builtins"]
