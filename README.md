@@ -1,6 +1,9 @@
 # HorizonOS
 
 **HorizonOS** is a mobile operating system written in Rust: the **Quantum** microkernel, a set of system services with capability-based security, its own graphical shell **Helios-lite**, a set of built-in apps, and several ways to run the very same system:
+<p align="center">
+  <img src="IMG_20261115_000400_067.jpg" width="100%">
+</p>
 
 | Way to run | What it is | Where |
 |---|---|---|
