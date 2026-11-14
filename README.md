@@ -468,7 +468,7 @@ The table describes what the system is today and which parts are not included in
 
 ---
 
-## Appendix: protocols
+# protocols
 
 All messages are bytes over channels; the first position is the opcode. The main constants are in `crates/services/src/proto.rs`.
 
