@@ -14,7 +14,7 @@
 
 The code of the services, the kernel and the shell is the same in all modes; only the "hardware" layer (screen, touch, audio, network) differs.
 
-![Overview: screens, settings, calendar, system (Russian interface)](overview_ru.png)
+![Overview: screens, settings, calendar, system](overview_ru.png)
 
 ---
 
