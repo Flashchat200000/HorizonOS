@@ -39,7 +39,7 @@ The code of the services, the kernel and the shell is the same in all modes; onl
 17. [Build and run](#build-and-run)
 18. [Tests and CI](#tests-and-ci)
 19. [Limits of the current implementation](#limits-of-the-current-implementation)
-20. [Appendix: protocols](#protocols)
+20. [protocols](#protocols)
 
 ---
 
